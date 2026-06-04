@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="container">
+    <a href="index.html" class="back-link">← Volver al menú</a>
+
+    <section id="quiz">
+      <h1 id="testTitle"></h1>
+      <p id="progress"></p>
+
+      <h2 id="question"></h2>
+
+      <div id="answers" class="answers"></div>
+
+      <button id="nextBtn" class="next-btn">Siguiente</button>
+    </section>
+
+    <section id="result" class="hidden result-card">
+      <h1>Resultado final</h1>
+      <p id="score"></p>
+
+      <button onclick="restartQuiz()" class="next-btn">Reintentar</button>
+      <a href="index.html" class="test-link">Volver al menú</a>
+    </section>
+  </main>
+
+  <script src="data/items-profesor.js"></script>
+  <script src="data/tema1.js"></script>
+  <script src="preguntas.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

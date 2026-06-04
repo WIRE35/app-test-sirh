@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>App Test de Estudio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="container">
+    <header class="header">
+      <h1>App Test de Estudio</h1>
+      <p>Selecciona un tema y comienza a practicar</p>
+    </header>
+
+    <section id="menu" class="menu"></section>
+  </main>
+
+  <script src="data/items-profesor.js"></script>
+  <script src="data/tema1.js"></script>
+  <script src="preguntas.js"></script>
+  <script>
+    const menu = document.getElementById("menu");
+
+    bancoPreguntas.forEach((tema) => {
+      const card = document.createElement("div");
+      card.classList.add("tema-card");
+
+      const title = document.createElement("h2");
+      title.textContent = tema.tema;
+      card.appendChild(title);
+
+      tema.tests.forEach((test) => {
+        const link = document.createElement("a");
+        link.textContent = test.nombre;
+        link.classList.add("test-link");
+        link.href = `test.html?tema=${tema.id}&test=${test.id}`;
+        card.appendChild(link);
+      });
+
+      menu.appendChild(card);
+    });
+  </script>
+
+</body>
+</html>
