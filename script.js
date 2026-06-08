@@ -15,6 +15,18 @@ if (test.tipo === "aleatorio") {
   });
 
   basePreguntas = shuffleArray(basePreguntas).slice(0, test.cantidad);
+
+} else if (test.tipo === "aleatorio-global") {
+  bancoPreguntas.forEach((temaActual) => {
+    temaActual.tests.forEach((testActual) => {
+      if (testActual.preguntas) {
+        basePreguntas = basePreguntas.concat(testActual.preguntas);
+      }
+    });
+  });
+
+  basePreguntas = shuffleArray(basePreguntas).slice(0, test.cantidad);
+
 } else {
   basePreguntas = test.preguntas;
 }

@@ -297,6 +297,112 @@ const itemsProfesor = {
                 correct: 1
               }
         ]
+      },
+      {
+        id: "test-items-sirh2",
+        nombre: "Ejemplos de ítems SIRH 2",
+        preguntas: [
+          {
+            question: "¿Cuál es el cambio fundamental que experimenta el rol del profesional de RR.HH. tras la implantación exitosa de un SIRH?",
+            answers: [
+              "La centralización de todas las decisiones operativas en la dirección general de la empresa.",
+              "El desplazamiento del enfoque del profesional desde tareas transaccionales hacia labores estratégicas.",
+              "La eliminación de la necesidad de contar con especialistas en gestión de personas y talento.",
+              "El aumento del volumen de registros manuales para asegurar el cumplimiento de la normativa legal."
+            ],
+            correct: 1
+          },
+          {
+            question: "Dentro del ciclo de vida del empleado, ¿cuál es el objetivo primordial de la fase de desarrollo profesional?",
+            answers: [
+              "Evaluar el cumplimiento de las normas de seguridad y salud laboral en el puesto de trabajo.",
+              "Potenciar el crecimiento de las capacidades del trabajador para futuras responsabilidades internas.",
+              "Gestionar los trámites administrativos derivados de la contratación y el alta en la seguridad social.",
+              "Definir los criterios de selección que se utilizarán para cubrir las vacantes del próximo ejercicio."
+            ],
+            correct: 1
+          },
+          {
+            question: "Al integrar Inteligencia Artificial en el proceso de reclutamiento, ¿en qué tarea aporta un valor añadido más directo?",
+            answers: [
+              "En la toma de decisión final sobre la idoneidad cultural de un candidato para la organización.",
+              "En la automatización del filtrado curricular basado en la adecuación a los requisitos del perfil.",
+              "En la sustitución completa de las entrevistas personales por algoritmos de análisis predictivo.",
+              "En la negociación de las condiciones salariales finales con el talento seleccionado para el puesto."
+            ],
+            correct: 1
+          },
+          {
+            question: "Al mapear el talento mediante una matriz de potencial y desempeño, ¿cómo se denomina habitualmente a los empleados con alto desempeño y alto potencial?",
+            answers: [
+              "Empleados en riesgo de estancamiento.",
+              "HiPo (High Potential) o talentos clave para el futuro.",
+              "Personal de apoyo administrativo transaccional.",
+              "Candidatos externos en proceso de reclutamiento."
+            ],
+            correct: 1
+          },
+          {
+            question: "En la evaluación de la formación, si queremos saber si un empleado está aplicando los nuevos conocimientos técnicos en sus tareas diarias, ¿qué nivel de evaluación estamos midiendo?",
+            answers: [
+              "Reacción (satisfacción con el docente y materiales).",
+              "Aprendizaje (conocimientos adquiridos en el test final).",
+              "Transferencia (cambio de conducta y aplicación en el puesto).",
+              "ROI (retorno económico de la inversión formativa)."
+            ],
+            correct: 2
+          },
+          {
+            question: "¿Cuál es la finalidad técnica de realizar una valoración de puestos de trabajo mediante un sistema estructurado?",
+            answers: [
+              "Determinar el nivel de rendimiento individual de cada ocupante con relación a sus objetivos.",
+              "Establecer la jerarquía de importancia relativa de los puestos para diseñar la estructura salarial.",
+              "Identificar las carencias formativas específicas de los empleados que ocupan puestos operativos.",
+              "Diseñar el organigrama funcional para reducir el número de niveles jerárquicos de la compañía."
+            ],
+            correct: 1
+          },
+          {
+            question: "¿Qué característica define mejor a un sistema de retribución variable dentro de una política de compensación moderna?",
+            answers: [
+              "El pago de un importe fijo mensual basado exclusivamente en la antigüedad del trabajador.",
+              "El reconocimiento económico vinculado directamente a la consecución de resultados u objetivos.",
+              "La concesión de beneficios sociales no monetarios para mejorar el clima laboral de la empresa.",
+              "El ajuste anual de los salarios en función de la evolución del índice de precios al consumo."
+            ],
+            correct: 1
+          },
+          {
+            question: "¿Qué funcionalidad del SIRH permite a los empleados actualizar sus datos personales o consultar sus nóminas de forma autónoma?",
+            answers: [
+              "Módulo de analítica avanzada (People Analytics).",
+              "Autoservicio del empleado (Employee Self-Service).",
+              "Sistema de gestión de bases de datos relacionales.",
+              "Algoritmo de IA para la planificación de plantillas."
+            ],
+            correct: 1
+          },
+          {
+            question: "¿Cómo contribuye el uso de analítica de datos en un SIRH a la planificación de las necesidades de personal?",
+            answers: [
+              "Permitiendo la gestión administrativa de los contratos temporales de forma masiva y automatizada.",
+              "Facilitando la predicción de demandas futuras de talento mediante el análisis de tendencias históricas.",
+              "Asegurando que todos los empleados reciban el mismo número de horas de formación cada semestre.",
+              "Reduciendo los costes de licencias de software al consolidar todas las bases de datos en una sola."
+            ],
+            correct: 1
+          },
+          {
+            question: "En un modelo de gestión del talento, ¿por qué es crítico normalizar los datos antes de calcular una puntuación global?",
+            answers: [
+              "Para garantizar que todas las variables tengan el mismo nombre en la base de datos del sistema.",
+              "Para permitir la comparación y agregación de variables que están medidas en escalas diferentes.",
+              "Para cumplir con los requisitos legales de protección de datos de carácter personal del empleado.",
+              "Para aumentar artificialmente el peso de las variables cualitativas frente a las cuantitativas."
+            ],
+            correct: 1
+          }
+        ]
       }
     ]
   };
