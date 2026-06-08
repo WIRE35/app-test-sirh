@@ -1,4 +1,5 @@
 const bancoPreguntas = [
   itemsProfesor,
-  tema1
+  tema1,
+  tema2
 ];
